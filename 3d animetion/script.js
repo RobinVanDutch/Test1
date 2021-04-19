@@ -7,6 +7,7 @@ const sneaker = document.querySelector(".sneaker img");
 const purchase = document.querySelector(".purchase");
 const description = document.querySelector(".info h3");
 const sizes = document.querySelector(".sizes");
+const butt = document.querySelector('button');
 
 //move anim Event
 
@@ -26,6 +27,7 @@ container.addEventListener('mouseenter', (e) =>{
   description.style.transform = "translateZ(125px)";
   sizes.style.transform = "translateZ(100px)";
   purchase.style.transform = "translateZ(75px)";
+  
 
 });
 //anime out
@@ -38,5 +40,13 @@ sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
 description.style.transform = "translateZ(0px)";
 sizes.style.transform = "translateZ(0px)";
 purchase.style.transform = "translateZ(0px)";
+butt.style.transform = "translateZ(0px)"
 
 });
+
+butt.addEventListener('mousemove', (e) => {
+    butt.style.transform = "translateZ(125px)"
+
+
+
+})
