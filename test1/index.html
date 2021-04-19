@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="/js/jquery-3.6.0.min.js" ></script>
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="sneaker">
+                <div class="circle"></div>
+                <img src="./cat.png" alt="adidas">
+            </div>
+            <div class="info">
+                <h1 class="title">Дурачек :3</h1>
+                <h3>Самая безбашаная анимка в истории интернета.</h3>
+                <div class="sizes">
+                    <button id="actives">фу</button>
+                    <button id="actives">ужас</button>
+                    <button class="active" id="actives">котя :3</button>
+                    <button id="actives">что это?</button>
+                </div>
+                <div class="purchase">
+                    <button>Похвалить  </button>
+                </div>
+                <form name="form" action="mail.php" method="post" id="form_message">
+                    <h2>Форма обратной связи.</h2>
+                    <p> <div class="titles">Ваше имя*</div> <input class="input" name="name" type="text"/> </p>
+                     
+                    <p> <div class="titles">Электронная почта*</div> <input class="input" name="email" type="text"/> </p>
+                     
+                    <p> <div class="titles">Тема сообщения</div> <input class="input" name="subjects" type="text"/> </p>
+                     
+                    <p> <div class="titles">Текст сообщения:</div><textarea name="message" cols="22" rows="3"></textarea></p>
+                    <p><input id="submit" value="Отправить" type="submit" /></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

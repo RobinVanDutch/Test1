@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+section{
+
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: aquamarine;
+    min-height: 20rem;
+    width: 15rem;
+}
+.cards{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: lawngreen;
+    min-height: 10rem;
+    width: 7rem;
+
+
+
+}
+.card{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: lemonchiffon;
+    width: 50%;
+    height: 100px;
+
+}
